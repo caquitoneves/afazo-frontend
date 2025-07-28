@@ -3,7 +3,6 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "preinstall": "corepack enable",
     "dev": "next dev --turbopack",
     "build": "next build",
     "start": "next start",
@@ -24,6 +23,5 @@
     "@types/react-dom": "^19",
     "tailwindcss": "^4.1.11",
     "typescript": "^5"
-  },
-  "packageManager": "yarn@4.9.2"
+  }
 }
